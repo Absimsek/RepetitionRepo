@@ -28,6 +28,6 @@ public class StringManipulation01 {
     // apart from all lower letters [^a-z]
     // when we use apart from we can use ^ sign right before the all regex of specified feature
 
-    String r="Hi I am bored";
+    String r="I am so bored";
 
 }

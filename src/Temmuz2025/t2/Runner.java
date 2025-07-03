@@ -15,7 +15,7 @@ public class Runner {
         System.out.println( c1.apple +c1.a +c1.b);// (apple + 1) + 5 so makes outcome apple15
         System.out.println( c1.apple +c1.a *c1.b);// apple + 1 * 5 so makes outcome apple5 presence changes
         //if all same operation then presence is from left to right so that's why first three example outcomes different
-
+        System.out.println("\nnext\n");
         StringManipulation01 s1=new StringManipulation01();
         System.out.println(s1.s.toLowerCase(Locale.ROOT));//prints lowered string
         System.out.println(s1.s.toUpperCase(Locale.ROOT));//prints uppered string
@@ -26,8 +26,16 @@ public class Runner {
         // you can combine methods and make it more complicated but also efficient
         System.out.println(s1.s.substring(3, 8).toUpperCase(Locale.ROOT));// prints the substring and also makes it upper
         System.out.println(s1.s.substring(0, 1).toUpperCase(Locale.ROOT));// just uppercases the specified character at index bc substring has only 1 character not a word
+        System.out.println("\nnext\n");
+        System.out.println(s1.r.endsWith("bored"));//checks şf string ends with bored or not
+        System.out.println(s1.r.replace("am", "do"));// changes all am words to do word
+        System.out.println(s1.r.replace("o", "xxx"));//changes all o characters into xxx
+        System.out.println(s1.r.replace("bored", "excited"));// changes bored into excited
 
-        s1.r;//continue from here next day
+        System.out.println(s1.r.replaceAll("[A-Z]", "*"));//replaces all upper letters with *
+        System.out.println(s1.r.replaceAll("[^A-Z]", "-"));// replaces apart from all upper letters with -
+        System.out.println(s1.r.replaceAll("[a-zA-Z]", "/"));// replaces all letters with /
+        System.out.println(s1.r.replaceAll("[aeiouAEIOU]", "9"));// replaces all vowels with 9
 
     }
 
