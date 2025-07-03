@@ -27,7 +27,7 @@ public class StringManipulation01 {
     // all x,q,w letters [xqw]i
     // apart from all lower letters [^a-z]
     // when we use apart from we can use ^ sign right before the all regex of specified feature
-
+    // regex is used inside replace all method
     String r="I am so bored";
 
 }
