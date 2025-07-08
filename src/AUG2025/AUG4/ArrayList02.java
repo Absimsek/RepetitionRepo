@@ -1,4 +1,4 @@
-package Temmuz2025.t4;
+package AUG2025.AUG4;
 
 import java.util.ArrayList;
 import java.util.Collections;

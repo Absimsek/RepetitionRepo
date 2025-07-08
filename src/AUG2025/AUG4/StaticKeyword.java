@@ -1,4 +1,4 @@
-package Temmuz2025.t4;
+package AUG2025.AUG4;
 
 public class StaticKeyword {
     // static keyword makes a variable or method to be seen from anywhere(it is common element for all objects)

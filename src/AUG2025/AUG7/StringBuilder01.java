@@ -1,4 +1,4 @@
-package Temmuz2025.t7;
+package AUG2025.AUG7;
 
 public class StringBuilder01 {
     // assigning strings to new values usually end up by creating a new container and leaving old one
@@ -7,7 +7,7 @@ public class StringBuilder01 {
 
 
     public static void main(String[] args) {
-        StringBuilder strbld01=new StringBuilder();//starts an empty string
+        StringBuilder strbld01 = new StringBuilder();//starts an empty string
         strbld01.append("full");
         System.out.println(strbld01);
 
@@ -22,13 +22,13 @@ public class StringBuilder01 {
         System.out.println(strbld01.capacity());// cap is increased since length needs more space
 
         // default cap is 16 but we can change it as follows
-        StringBuilder sb3= new StringBuilder(3);
+        StringBuilder sb3 = new StringBuilder(3);
         System.out.println(sb3.capacity());//cap is 3
         sb3.append("full");
         System.out.println(sb3.capacity());//cap is 8 so that 2*cap+2 ==> 3*2+2=8
 
         //we can reverse the strings in string builder
-        StringBuilder sb1=new StringBuilder("this string will be reversed");
+        StringBuilder sb1 = new StringBuilder("this string will be reversed");
         System.out.println(sb1);
         System.out.println(sb1.reverse());//prints reversed version
         sb1.reverse();//back to normal again
@@ -48,16 +48,16 @@ public class StringBuilder01 {
         //using compareTo method we can compare alphabetical order of strings
         // -1 means 2nd to compare is before
         // 1 means 1st to compare is before
-        StringBuilder sb2=new StringBuilder("defense");
-        StringBuilder sb4=new StringBuilder("tower");
-        int c1=sb2.compareTo(sb4);
+        StringBuilder sb2 = new StringBuilder("defense");
+        StringBuilder sb4 = new StringBuilder("tower");
+        int c1 = sb2.compareTo(sb4);
         System.out.println(c1);
 
-        if (c1<0){
-            System.out.println("second letter is "+Math.abs(c1)+" characters before than first letter in alphabet\n");
-        } else if (c1>0) {
-            System.out.println("first letter is "+c1+" characters before than second letter in alphabet\n");
-        }else{
+        if (c1 < 0) {
+            System.out.println("second letter is " + Math.abs(c1) + " characters before than first letter in alphabet\n");
+        } else if (c1 > 0) {
+            System.out.println("first letter is " + c1 + " characters before than second letter in alphabet\n");
+        } else {
             System.out.println("characters equal");
         }
 
@@ -65,11 +65,11 @@ public class StringBuilder01 {
         //to use the methods we should convert between these 2 data type
 
         //converting strbuilder to str
-        String str =sb2.toString().toUpperCase();//made all characters uppercase
+        String str = sb2.toString().toUpperCase();//made all characters uppercase
         System.out.println(str);
 
         //converting str into strbuilder
-        StringBuilder newSb2=new StringBuilder(str);//now back to str builder so that we can use its methods
+        StringBuilder newSb2 = new StringBuilder(str);//now back to str builder so that we can use its methods
         newSb2.append("haha");
         System.out.println(newSb2);
 
@@ -77,3 +77,4 @@ public class StringBuilder01 {
     }
 
 }
+

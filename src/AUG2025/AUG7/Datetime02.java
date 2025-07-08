@@ -1,4 +1,4 @@
-package Temmuz2025.t7;
+package AUG2025.AUG7;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;

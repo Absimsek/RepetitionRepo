@@ -1,4 +1,4 @@
-package Temmuz2025.t4;
+package AUG2025.AUG4;
 
 public class StaticBlock {
     //when we press run compiler first goes to main method and execute it

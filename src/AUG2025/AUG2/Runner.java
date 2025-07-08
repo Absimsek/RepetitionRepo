@@ -1,4 +1,4 @@
-package Temmuz2025.t2;
+package AUG2025.AUG2;
 
 import java.util.Locale;
 

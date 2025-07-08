@@ -1,4 +1,4 @@
-package Temmuz2025.t7;
+package AUG2025.AUG7;
 
 public class VarArgs01 {
     // var args is used to assign unknown number of parameters to a method so that user can give lots of parameters

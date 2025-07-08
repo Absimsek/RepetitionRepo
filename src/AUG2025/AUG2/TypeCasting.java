@@ -1,4 +1,4 @@
-package Temmuz2025.t2;
+package AUG2025.AUG2;
 
 public class TypeCasting {
     // type casting is used for converting  numeric data types to each other

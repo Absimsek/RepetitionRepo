@@ -1,4 +1,4 @@
-package Temmuz2025.t1;
+package AUG2025.AUG1;
 import java.util.Scanner;
 public class Scanner01 {
 

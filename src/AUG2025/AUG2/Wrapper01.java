@@ -1,4 +1,4 @@
-package Temmuz2025.t2;
+package AUG2025.AUG2;
 
 public class Wrapper01 {
     // Wrapper classlar primitive dataları non-primitive hale getirmek için kullanılan classlardır

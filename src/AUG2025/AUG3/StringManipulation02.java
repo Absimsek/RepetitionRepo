@@ -1,4 +1,4 @@
-package Temmuz2025.t3;
+package AUG2025.AUG3;
 
 public class StringManipulation02 {
     //trim() method erases the space characters at the beginning and the end of String if there is any
