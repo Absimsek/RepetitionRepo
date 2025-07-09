@@ -1,4 +1,4 @@
-package AUG2025.AUG8;
+package AUG2025.AUG8.Polymorphism;
 
 public class Polymorphism {
     //polymorphism consists of 2 parts

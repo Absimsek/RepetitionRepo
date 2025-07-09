@@ -1,0 +1,5 @@
+<application>
+    <component name="TerminalOptionsProvider">
+        <option name="shellPath" value="cmd.exe /k cd /d C:\Users\W10\IdeaProjects\Repetition" />
+    </component>
+</application>
