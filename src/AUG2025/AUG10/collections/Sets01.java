@@ -1,4 +1,4 @@
-package AUG2025.AUG10;
+package AUG2025.AUG10.collections;
 
 import java.util.HashSet;
 import java.util.LinkedHashSet;
@@ -6,9 +6,9 @@ import java.util.TreeSet;
 
 public class Sets01 {
     // sets can be said improved versions of arrays
-    // sets have key-value pairs for each element
-    // for the specified key chosen set will give its value
-    //so basically it is for classifying things
+
+
+
     //also there cant be such same keys so it is unique
 
     //consists of 3 sets

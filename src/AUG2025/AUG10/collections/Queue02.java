@@ -1,4 +1,4 @@
-package AUG2025.AUG10;
+package AUG2025.AUG10.collections;
 
 import java.util.Deque;
 import java.util.LinkedList;
