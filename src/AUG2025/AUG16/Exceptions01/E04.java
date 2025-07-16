@@ -1,4 +1,4 @@
-package AUG2025.AUG11.Exceptions;
+package AUG2025.AUG16.Exceptions01;
 
 public class E04 {
     public static void main(String[] args) {
@@ -10,7 +10,7 @@ public class E04 {
 
     }
 
-    //Array lerde olmayan bir index kullanildiginda java ArrayIndexOutOfBoundsException atar
+    //when an index that doesn't exist in an array is called, ArrayIndexOutOfBoundsException occurs.
     public static void getElementFromArray(String[] s, int idx) {
 
         try {

@@ -1,4 +1,4 @@
-package AUG2025.AUG11.Exceptions;
+package AUG2025.AUG16.Exceptions01;
 
 public class E03 {
     public static void main(String[] args) {
@@ -12,7 +12,7 @@ public class E03 {
 
     }
 
-    //String lerde var olmayan indexler kullanildiginda java StringIndexOutOfBoundsException atar
+    //when code try to access an index that is not exist, StringIndexOutOfBoundsException occurs
     public static void getCharFromString(String s, int idx) {
 
 
@@ -20,7 +20,7 @@ public class E03 {
             char ch = s.charAt(idx);
             System.out.println(ch);
         } catch (StringIndexOutOfBoundsException e) {
-            System.out.println("Olmayan index kullanim hatasi yaptiniz.. "+e.getMessage());//Olmayan index kullanim hatasi yaptiniz.. String index out of range: 4
+            System.out.println("index doesn't exist.. "+e.getMessage());//String index out of range: 4
             System.out.println(e.getCause());//null
             e.printStackTrace();
             /*
@@ -31,7 +31,7 @@ public class E03 {
             at day31mapsexceptions.E03.main(E03.java:9)
              */
 
-            System.out.println("kod calismaya devam etti");
+
         }
 
 
