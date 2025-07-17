@@ -41,6 +41,7 @@ public class E06 {
 
             }catch (InputMismatchException e){
                 System.out.println(e.getMessage());
+            input.nextLine();
             }
 
         }
