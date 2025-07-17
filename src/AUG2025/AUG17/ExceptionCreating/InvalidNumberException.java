@@ -1,4 +1,4 @@
-package AUG2025.AUG17;
+package AUG2025.AUG17.ExceptionCreating;
 
 public class InvalidNumberException extends RuntimeException {
     // Exceptions can be created by coder as like creating an object

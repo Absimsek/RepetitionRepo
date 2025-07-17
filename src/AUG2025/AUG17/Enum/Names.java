@@ -1,4 +1,4 @@
-package AUG2025.AUG17;
+package AUG2025.AUG17.Enum;
 
 public enum Names {
     //ENUMS are used when there is a certain format for each object.

@@ -1,4 +1,4 @@
-package AUG2025.AUG17;
+package AUG2025.AUG17.Enum;
 
 public class EnumRunner {
     public static void main(String[] args) {
