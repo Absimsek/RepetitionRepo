@@ -75,7 +75,7 @@ public class Lambda01 {
     }
 
 
-    //4) print even elements with space(structured)
+    //4) print even elements with space(functional)
 
     public static void printEvenElements2(List<Integer> nums) {
         System.out.println("even with space");
