@@ -1,0 +1,27 @@
+stream() method converts a list into a stream. A Stream is not a data structure and does not occupy memory.
+It only takes existing data structures as input and processes them without changing their original form. It allows data to pass through a sequence of operations (pipeline) to produce the desired results.
+
+filter: Filters the elements of a collection based on a specific condition.
+With this method, only the elements that satisfy the condition can continue in the stream.
+
+map: Used when each element of a collection needs to be transformed into another value.
+With this method, each element can be updated or modified.
+
+sorted: Sorts a collection according to a given sorting criterion.
+It ensures that the elements are placed in the correct order.
+
+distinct: Removes duplicate elements from the collection, leaving only unique elements.
+Note: If the distinct method is placed at the beginning of the pipeline,
+it will make the subsequent lambda operations process fewer elements.
+
+reduce: Used when a single result like max, min, sum, product, etc. is needed from multiple elements.
+When reduce() is used, many values are reduced to a single value (reduction).
+
+Example: reduce(0, (t, u) -> t + u)
+Here, t takes its initial value from the identity (0) and later takes the result of the previous reduction.
+u always takes the current value from the stream.
+
+forEach: Performs a specific operation for each element in the collection.
+It allows direct processing of each element without creating a loop manually.
+
+get() method converts an Optional data type into its actual value,
