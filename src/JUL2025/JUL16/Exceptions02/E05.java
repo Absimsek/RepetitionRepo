@@ -7,7 +7,7 @@ import java.io.IOException;
 public class E05 {
 
     static void throwTest1()throws IOException{
-        FileInputStream fis1 = new FileInputStream("src/AUG2025/AUG16/Exceptions02/throwTest1.txt");
+        FileInputStream fis1 = new FileInputStream("src/JUL2025/JUL16/Exceptions02/throwTest1.txt");
         int k = 0;
         while ((k = fis1.read()) != -1) {
             System.out.print((char) k);
@@ -23,7 +23,7 @@ public class E05 {
         try {
 
 
-            FileInputStream fis = new FileInputStream("src/AUG2025/AUG16/Exceptions02/file1.txt");
+            FileInputStream fis = new FileInputStream("src/JUL2025/JUL16/Exceptions02/file1.txt");
             int k = 0;
             while ((k = fis.read()) != -1) {
                 System.out.print((char) k);

@@ -21,7 +21,7 @@ public class E04 {
 
     public static void main(String[] args) throws IOException {
 
-        FileInputStream fis = new FileInputStream("src/AUG2025/AUG16/Exceptions02/file.txt");
+        FileInputStream fis = new FileInputStream("src/JUL2025/JUL16/Exceptions02/file.txt");
 
         int k = 0;
         while ((k = fis.read()) != -1) {
